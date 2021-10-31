@@ -1,0 +1,7 @@
+dni=input("Enter your DNI number (without letter): ")
+dni=dni.replace(' ','')
+dni=dni.replace('.','')
+dni=int(dni)
+letter_list=['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E']
+print(dni)
+print('Your DNI letter is: ', letter_list[dni%23])
